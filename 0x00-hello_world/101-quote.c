@@ -5,8 +5,8 @@
  * Return: Always 1 (Success)
  */
 int main(void)
+char p [ ] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 {
-	char p [ ] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 	fprintf(stderr, "%s", "p\n");
 	return (1);
 }
