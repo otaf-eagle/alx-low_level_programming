@@ -7,11 +7,12 @@
  */
 int main(void)	
 {
-	int x
-                for (x = 'A'; x <= 'Z'; x++)
-                {
-	                putchar(tolower(x));
-                }
-        putchar('\n');
-        return (0);
+	int x;
+	x = 65;
+	for (x = 'A'; x <= 'Z'; x++)
+	{
+		putchar(tolower(x));
+	}
+	putchar('\n');
+	return (0);
 }
