@@ -5,14 +5,15 @@
  *
  * Return: Always 0 (Success)
  */
-int _putchar()
+int main(void)
 {
 	int i;
+	int _putchar(char);
 
-	i = 0;
-	for (i < 1; i++)
+	for (i)
 	{
 		putchar('_putchar');
+		break;
 	}
 	putchar('\n');
 	return (0);
