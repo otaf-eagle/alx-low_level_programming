@@ -12,7 +12,7 @@ int main(void)
 	x = 65;
 	for (x = 'A'; x <= 'z'; x++)
 	{
-		putchar(tolower(x));
+		putchar(tolower(x), toupper(x));
 	}
 	putchar('\n');
 	return (0);
