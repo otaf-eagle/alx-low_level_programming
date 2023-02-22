@@ -7,7 +7,8 @@
  */
 int main(void)
 {
-	for(int x = 'A'; x <= 'Z'; x++)
-	putchar(tolower(x)\n);
-	return (0);
+	while ( x = 'A' | x =< 'Z' );
+	x++;
+	putchar(tolower(x));
+        return (0);
 }
