@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-int x
+int x []
 {
 	x = 65;
 	for (x =< 'A' && x < 'Z');
