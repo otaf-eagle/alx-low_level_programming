@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - Entry point
@@ -12,7 +11,7 @@ int main(void)
 
 	for (i;)
 	{
-		putchar("_putchar");
+		putchar(_putchar);
 		break;
 	}
 	putchar('\n');
