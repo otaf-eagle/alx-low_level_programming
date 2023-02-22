@@ -12,7 +12,7 @@ int main(void)
 	x = 65;
 	for (x = 'A'; x <= 'Z'; x++)
 	{
-		if (x not in '69' && '81')
+		if (x != '69' && '81')
 		{
 			putchar(tolower(x));
 		}
