@@ -8,10 +8,10 @@ int main(void)
 {
 	int x;
 
-	x = 0;
+	x = "0123456789";
 	for (x = 0; x <= 9; x++)
 	{
-		putchar("x");
+		putchar(x);
 	}
 	putchar('\n');
 	return (0);
