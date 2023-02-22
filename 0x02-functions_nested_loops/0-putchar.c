@@ -4,16 +4,9 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int _putchar(char c)
 {
-	int i;
-	int _putchar(char);
-
-	for (i;)
-	{
-		putchar(_putchar);
-		break;
-	}
+	putchar(_putchar);
 	putchar('\n');
 	return (0);
 }
