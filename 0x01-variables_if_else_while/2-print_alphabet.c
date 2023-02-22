@@ -8,10 +8,8 @@
 int main(void)
 {
 	int x;
-	x = 65;
-	for (x =|< 'A' && x < 'Z')
+	for (x = 'A'; x <= 'Z'; x++)
 	{
-		 x++;
                  putchar(tolower(x));
 	}
 	putchar('\n');
