@@ -6,7 +6,9 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+int x
 {
+	x = 65;
 	for (x =< 'A' && x < 'Z');
 	x++;
 	putchar(tolower(x));
