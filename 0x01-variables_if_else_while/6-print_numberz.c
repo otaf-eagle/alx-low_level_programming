@@ -8,7 +8,7 @@ int main(void)
 {
 	int x;
 
-	x = "0123456789";
+	x[10] = "0123456789";
 	for (x = 0; x <= 9; x++)
 	{
 		putchar(x);
