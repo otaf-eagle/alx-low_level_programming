@@ -2,8 +2,8 @@
 
 /**
  * _isupper - checks wether alphabet is upper case
- *@c: character to be checked 
- * 
+ *@c: character to be checked
+ *
  * Return: always 1 on success. 0 otherwise
  */
 int _isupper(int c)
