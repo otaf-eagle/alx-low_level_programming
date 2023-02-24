@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * Entry: FizzBuzz game
+ * main -  FizzBuzz game
  * chaecks for multiples of 3 and 5 and combined
  * Return: printed array
  */
@@ -20,7 +20,7 @@ int main(void)
 		else if (i % 5 == 0)
 		{
 			printf("Buzz");
-			if(i == 100)
+			if (i == 100)
 			{
 			}
 			else
