@@ -1,4 +1,6 @@
 #include "main.h"
+#include <time.h>
+#include <stdlib.h>
 
 /**
  * positive_or_negative - Entry point
