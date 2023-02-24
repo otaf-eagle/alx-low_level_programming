@@ -38,7 +38,7 @@ int main(void)
 			printf("%d", i);
 			putchar(' ');
 		}
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
