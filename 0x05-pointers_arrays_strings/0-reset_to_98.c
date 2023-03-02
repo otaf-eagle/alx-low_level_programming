@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - takes olp ptr value to 98
- * @pt: pointer
+ * @n: pointer
  * return on success 0
  */
 void reset_to_98(int *n)
