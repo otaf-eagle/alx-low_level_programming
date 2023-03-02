@@ -5,7 +5,7 @@
  * *_strcat - appending src to dest
  * @src: string valu
  * @dest: string valu
- * return: returns a pointer to dest
+ * Return: returns a pointer to dest
  */
 char *_strcat(char *dest, char *src)
 {
