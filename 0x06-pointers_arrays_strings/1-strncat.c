@@ -5,6 +5,7 @@
  * _strncat - appends n numbers from s2 to s1
  * @dest: string 1
  * @src: string 2
+ * @n: number of chars to be evaluated
  * Return: appended string 1
  */
 char *_strncat(char *dest, char *src, int n)
