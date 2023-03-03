@@ -10,10 +10,10 @@ void rev_string(char *s)
 {
 	int len;
 
-	len = strlen(s) - 1;
-	while ((len) != -1)
+	len = strlen(s);
+	while(len != -1)
 	{
-		putchar(s[len]);
+		*s = s[len];
 		len--;
 	}
 }
