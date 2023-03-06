@@ -8,12 +8,20 @@
  */
 void rev_string(char *s)
 {
-	int len;
-
-	len = strlen(s);
-	while(len != -1)
+	if (s)
 	{
-		*s = s[len];
-		len--;
+		char *end = s + strlen(s) - 1;
+		while (s < end)
+		{
+			do
+			{
+				*s ^= *end;
+				*end ^= *s;
+				*s ^= *end;
+			}
+			while (0);
+			s++;
+			end--;
+		}
 	}
 }
