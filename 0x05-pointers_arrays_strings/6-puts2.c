@@ -3,7 +3,7 @@
 
 /**
  * puts2 - print each other char in string
- * str: string value
+ * @str: string value
  * Return: void 0 always on success
  */
 void puts2(char *str)
