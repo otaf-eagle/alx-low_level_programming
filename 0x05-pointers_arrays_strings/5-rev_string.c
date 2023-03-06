@@ -11,15 +11,14 @@ void rev_string(char *s)
 	if (s)
 	{
 		char *end = s + strlen(s) - 1;
+
 		while (s < end)
 		{
-			do
-			{
+			do {
 				*s ^= *end;
 				*end ^= *s;
 				*s ^= *end;
-			}
-			while (0);
+			} while (0);
 			s++;
 			end--;
 		}
