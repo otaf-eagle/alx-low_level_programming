@@ -14,7 +14,7 @@ char *_strcpy(char *dest, char *src)
 
 	lensrc = strlen(src);
 	c = 0;
-	for (c = 0; c >= lensrc; c++)
+	for (c = 0; c <= lensrc; c++)
 	{
 		*(dest + c) = *(src + c);
 	}
