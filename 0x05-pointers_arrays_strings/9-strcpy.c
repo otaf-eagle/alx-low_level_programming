@@ -10,14 +10,12 @@
 char *_strcpy(char *dest, char *src)
 {
 	int lensrc;
-	int lendest;
 	int c;
 
 	lensrc = strlen(src);
 	c = 0;
-	for(lendest = strlen(dest); lendest < lensrc; lendest++)
+	for(c = 0; c < lensrc; c++)
 	{
-		c++;
 		*dest = src[c];
 	}
 	return(dest);
