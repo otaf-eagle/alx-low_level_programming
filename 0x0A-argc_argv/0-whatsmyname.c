@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * a program that prints the name of itself
+ * main - a program that prints the name of itself
  * @argc: the arrgument gcc
  * @argv: the array of arguments
  * Return: zero always on success
